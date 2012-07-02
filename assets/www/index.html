@@ -4,10 +4,24 @@
   <head>
       <script type="text/javascript" charset="utf-8" src="cordova-1.8.1.js"></script>
 
-
+	  <link href="styles.css" rel="stylesheet" type="text/css">
   </head>
-
-    <h1>Welcome to Cordova!</h1>
+  <body onload="resizeElementHeight('container')">
+	<div id="container">
+		<div class="menuButton">
+			<p class="menuButton"><a href="">New Session</a></p>
+		</div>
+		<div class="menuButton">
+			<p class="menuButton"><a href="">View All Sessions</a></p>
+		</div>
+		<div class="menuButton">
+			<p class="menuButton"><a href="">Graphing</a></p>
+		</div>
+		<div class="menuButton">
+			<p class="menuButton"><a href="">Settings</a></p>
+		</div>
+	</div>
+    
  
   </body>
 </html>
