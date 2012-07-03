@@ -8,5 +8,6 @@ function resizeElementHeight(element) {
   } else if (body && body.clientHeight) {
 	  height = body.clientHeight;
   }
+  alert(height);
   document.getElementById(element).style.height = (height + "px");
 }
