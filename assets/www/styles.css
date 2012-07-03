@@ -1,37 +1,35 @@
 #container {
-	width: 100%;
-	background-color: white;
-	padding: 5% 0;
-	background:#ffffff url('img/white-hardwood-floor.jpg') no-repeat;
-	position: absolute;
-	margin-bottom: 0px;
+  width: 100%;
+  padding: 5% 0;
+  margin: 0;
+  background:#333 url('img/white-hardwood-floor.jpg') no-repeat;
 }
 
 div.menuButton {
-	background-color: blue;
-	margin: 5% auto;
-	width: 70%;
+  background-color: blue;
+  margin: 3% auto;
+  width: 70%;
+  height: 10%;
     -moz-border-radius: 15px;
     -webkit-border-radius: 15px;
     -khtml-border-radius: 15px;
     border-radius: 15px;
-    padding: 5% 0;
     zoom: 1;
-	filter: alpha(opacity=75);
-	opacity: 0.75;
+  filter: alpha(opacity=75);
+  opacity: 0.75;
 }
 
 p.menuButton {
-	text-align: center;
-	font-variant: small-caps;
-	color: white;
-	font-weight: 300;
-	font-size: 150%;
-	margin: 0;
+  text-align: center;
+  font-variant: small-caps;
+  color: white;
+  font-weight: 300;
+  font-size: 100%;
+  margin: 0;
 }
 
 .menuButton a:hover, a:visited, a:link {
-	color:#FFF; 
-	background:transparent;
-	text-decoration:none; 
+  color:#FFF; 
+  background:transparent;
+  text-decoration:none; 
 }
