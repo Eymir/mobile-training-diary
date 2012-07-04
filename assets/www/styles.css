@@ -1,31 +1,93 @@
+body {
+	font-family: Trebuchet-MS, sans-serif;
+	background-color: white;
+	padding: 0;
+	margin: 0;
+}
+
 #container {
   width: 100%;
-  padding: 5% 0;
   margin: 0;
-  background-color: #333; /* url('img/white-hardwood-floor.jpg') no-repeat; */
+  /* url('img/white-hardwood-floor.jpg') no-repeat; */
+}
+
+#header {
+	background-color: #515151;
+	border-top: 1px solid #919192;
+	height: 32px;
+	left: 0px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	margin-bottom:32px;
+}
+
+#header h1 {
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-size: 1.2em;
+	text-align: center;
+	text-shadow: 0px -1px 1px #222222;
+	padding-top: 4px;
+}
+
+#footer {
+	background-color: #515151;
+	border-top: 1px solid #919192;
+	height: 20px;
+	left: 0px;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+
+#footer p {
+	margin: 0;
+	padding: 2px 5px;
+	font-size: 0.75em;
+	color: white;
+	text-shadow: 0px -1px 1px #222222;
+}
+
+#contentholder {
+	position: fixed;
+	top: 32px;
+	width: 100%;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+
+div.spacer {
+	margin: 0;
+	padding: 0;
+	height: 4%;
 }
 
 div.menuButton {
   background-color: blue;
-  margin: 3% auto;
-  width: 70%;
-  height: 10%;
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -khtml-border-radius: 15px;
-    border-radius: 15px;
-    zoom: 1;
+  margin: 0 auto;
+  width: 75%;
+  height: 20%;
+  padding: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    /*zoom: 1;
   filter: alpha(opacity=75);
-  opacity: 0.75;
+  opacity: 0.75;*/
 }
 
 p.menuButton {
   text-align: center;
-  font-variant: small-caps;
   color: white;
-  font-weight: 300;
-  font-size: 100%;
+  font-weight: 700;
+  font-size: 1.1em;
+  padding-top: 7.5%;
   margin: 0;
+  text-shadow: 0px -1px 1px #222222;
 }
 
 .menuButton a:hover, a:visited, a:link {
