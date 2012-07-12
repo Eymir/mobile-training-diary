@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+      <script type="text/javascript" charset="utf-8" src="cordova-1.8.1.js"></script>
+	  <script type="text/javascript" charset="utf-8" src="functions.js"></script>
+	  <script type="text/javascript" charset="utf-8">
+
+		// Call onDeviceReady when PhoneGap is loaded.
+		//
+		// At this point, the document has loaded but phonegap has not.
+		// When PhoneGap is loaded and talking with the native device,
+		// it will call the event `deviceready`.
+		// 
+		document.addEventListener("deviceready", onDeviceReady, false);
+
+		// PhoneGap is loaded and it is now safe to make calls PhoneGap methods
+		//
+		function onDeviceReady() {
+			// Now safe to use the PhoneGap API
+		}
+
+      </script>
+
+	  <link href="styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body onload="resizeElementHeight('contentholder')">
+	<div id="container">
+		<div id="header">
+			<h1>TrainingTracker</h1>
+		</div>
+		<div id="contentholder">
+			
+		</div>
+	<div id="footer">
+	<p>SpearWare Mobile</p>
+	</div>
+  </div>
+  </body>
+</html>
