@@ -1,0 +1,14 @@
+#Javascript Graphing Library
+
+# Introduction #
+
+Links to javascript graphing libraries that will be utilised
+
+# Details #
+
+Reference:
+  * http://javascript.open-libraries.com/utilities/chart/20-best-javascript-charting-and-plotting-libraries/
+  * http://webdesignledger.com/resources/13-useful-javascript-solutions-for-charts-and-graphs
+
+  * JSCharts has a watermark
+  * HighCharts needs a framework

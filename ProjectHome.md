@@ -1,0 +1,1 @@
+Stores all the important info about training
